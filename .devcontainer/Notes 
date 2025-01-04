@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- A professional crypto website template -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoPro - Your Crypto Gateway</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <!-- Generate a professional navigation bar -->
+  </header>
+
+  <main>
+    <section id="hero">
+      <!-- A hero section with a tagline for the website -->
+    </section>
+
+    <section id="prices">
+      <!-- Live cryptocurrency market prices -->
+    </section>
+
+    <section id="register">
+      <!-- User registration form -->
+    </section>
+  </main>
+
+  <footer>
+    <!-- Generate a professional footer -->
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
