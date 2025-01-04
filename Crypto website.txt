@@ -1,68 +1,48 @@
-<!MYPROJECT html>
-<html lang="en">
-<head>
-  <!-- A professional crypto website template -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CryptoPro - Your Crypto Gateway</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <!-- Generate a professional navigation bar -->
-    <nav>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#prices">Prices</a></li>
-        <li><a href="#register">Register</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="hero">
-      <!-- A hero section with a tagline for the website -->
-      <h1>Welcome to CryptoPro</h1>
-      <p>Your gateway to the world of cryptocurrency.</p>
-    </section>
-    <section id="prices">
-      <!-- Live cryptocurrency market prices -->
-      <h2>Live Market Prices</h2>
-      <div id="market-prices">
-        <!-- Prices will be dynamically loaded here -->
-      </div>
-    </section>
-    <section id="register">
-      <!-- User registration form -->
-      <h3>Register to start earning</h3>
-      <form id="registration-form">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-        <button type="submit">Register</button>
-      </form>
-    </section>
-    <section id="contact">
-      <!-- Contact form -->
-      <h2>Contact Us</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <!-- Generate a professional footer -->
-    <p>&copy; 2023 CryptoPro. All rights reserved.</p>
-  </footer>
-  <script src="js/script.js"></script>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
